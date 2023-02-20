@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from surya device
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common BananaDroid stuff.
+$(call inherit-product, vendor/banana/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_surya
+PRODUCT_NAME := banana_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := M2007J20CG
@@ -22,9 +22,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# AlphaDroid
-ALPHA_BUILD_TYPE := Official
-ALPHA_MAINTAINER := TheStrechh
+# BananaDroid
+BANANA_BUILD_TYPE := UNOfficial
+BANANA_MAINTAINER := NINJA
 TARGET_ENABLE_BLUR := true
 #WITH_GAPPS := true
 #TARGET_GAPPS_ARCH := arm64
