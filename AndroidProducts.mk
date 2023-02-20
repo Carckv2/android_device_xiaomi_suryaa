@@ -5,6 +5,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_surya.mk
+    $(LOCAL_DIR)/voltage_surya.mk
 
 
